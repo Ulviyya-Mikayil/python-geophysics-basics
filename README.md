@@ -1,6 +1,6 @@
 # Python Geophysics Basics
 
-A collection of small Python projects developed while learning Python for geophysical applications.
+A collection of practical Python projects developed while learning Python for geophysical and petroleum applications.
 
 ## About
 
@@ -10,9 +10,31 @@ This repository documents my progress in Python programming and my exploration o
 
 ## Projects
 
-- Seismic velocity calculation
-- Porosity calculation
-- Well depth analysis
+### 1. Seismic Velocity Calculation
+Calculates seismic velocity from TVD and travel time.
+
+### 2. Well Log Reservoir Screening
+Evaluates basic well-log parameters and performs simple reservoir screening based on:
+- Porosity
+- Water saturation
+- Resistivity
+- Data quality validation
+
+### Example Run
+
+**Input**
+```text
+Depth: 1450 m
+Porosity: 25 %
+Water Saturation: 30 %
+Resistivity: 22 ohm.m
+```
+
+**Output**
+```text
+Data Quality: Valid data
+Reservoir Status: Potential Reservoir
+```
 
 ## Python Topics
 
@@ -29,4 +51,4 @@ This repository documents my progress in Python programming and my exploration o
 
 ## Goal
 
-To gradually develop practical Python skills and apply them to geophysical and well-log data analysis.
+To develop practical Python skills and apply them to geophysical and well-log data analysis.
